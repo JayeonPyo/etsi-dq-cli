@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etsi-dq"
+version = "0.2.0"
+description = "ETSI-based Data Quality evaluation framework"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "pydantic>=2.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+cli = ["typer>=0.9", "rich>=13.0"]
+server = ["fastapi>=0.100", "uvicorn>=0.20", "python-multipart>=0.0.6"]
+report = ["jinja2>=3.1", "reportlab>=4.0", "qrcode>=7.0", "pillow>=10.0"]
+all = ["etsi-dq[cli,server,report]"]
+
+[project.scripts]
+etsi-dq = "etsidqcli.cli.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

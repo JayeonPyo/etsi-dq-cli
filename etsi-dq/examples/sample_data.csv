@@ -1,0 +1,16 @@
+name,email,phone,address,age
+Kim Minjun,minjun@example.com,010-1234-5678,Seoul Gangnam,28
+Lee Soyeon,,010-9876-5432,Busan Haeundae,35
+Park Jiwoo,jiwoo@example.com,,Daegu Suseong,42
+Choi Yuna,yuna@example.com,010-5555-1234,,22
+Jung Dohyun,invalid-email,010-3333-4444,Incheon Bupyeong,67
+,sora@example.com,010-7777-8888,Gwangju Seogu,31
+Han Minji,minji@example.com,010-2222-3333,Daejeon Yuseong,
+Yoon Seojin,seojin@example.com,010-4444-5555,Ulsan Namgu,29
+Kang Hyunwoo,hyunwoo@example.com,010-6666-7777,Sejong,45
+Lim Chaewon,chaewon@example.com,,Jeju Seogwipo,38
+Oh Taeyang,,010-8888-9999,Seoul Mapo,55
+Shin Yerin,yerin@example.com,010-1111-2222,Suwon Yeongtong,
+Baek Joonho,joonho@example.com,010-3333-2222,Seongnam Bundang,33
+Hwang Eunji,eunji@example.com,,Goyang Ilsan,27
+Seo Minseok,minseok@example.com,010-9999-0000,Changwon Seongsan,41

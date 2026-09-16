@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Node (dashboard frontend)
+node_modules/
+etsi-dq-lib/etsi-dq-frontend/node_modules/
+npm-debug.log*
+
+# Databases & generated artifacts
+*.db
+certificate_*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+.idea/
+.vscode/

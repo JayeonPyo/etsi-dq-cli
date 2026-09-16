@@ -1,0 +1,14 @@
+{
+  "accuracy": [
+    {"method": "Reference Mapping", "column": "Delivery_Time", "ref_mode": "External Reference File",
+     "reference_file": "delivery_time_reference.csv", "meas_keys": ["Order_ID"], "ref_keys": ["Order_ID"],
+     "reference_value_col": "Expected_Delivery_Time", "tol_type": "absolute", "tol_value": 5}
+  ],
+  "consistency": [
+    {"mode": "Referential Integrity", "source_column": "Category", "reference_column": "Category",
+     "reference_file": "valid_categories.csv", "ref_allow_empty": true}
+  ],
+  "timeliness": {"event_column": "Order_Time", "system_column": "Pickup_Time", "sla_seconds": 3600},
+  "reliability": {"columns": ["Delivery_Time"]},
+  "uniqueness_keys": ["Order_ID"]
+}
