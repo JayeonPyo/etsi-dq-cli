@@ -33,7 +33,7 @@ etsi-dq-cli/
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/etsi-dq-cli.git
+git clone https://github.com/JayeonPyo/etsi-dq-cli.git
 cd etsi-dq-cli
 pip install -e "./etsi-dq[all]"
 ```
